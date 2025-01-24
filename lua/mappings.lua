@@ -26,5 +26,3 @@ map("n", "<C-p>", "<cmd>lua require('fzf-lua').files()<CR>", { desc = "Find file
 map("n", "<leader>f2", "<cmd>lua require('fzf-lua').grep()<CR>", { desc = "Grep in project" })
 map("n", "<leader>f2", "<cmd>lua require('fzf-lua').buffers()<CR>", { desc = "List buffers" })
 map("n", "<leader>f3", "<cmd>lua require('fzf-lua').oldfiles()<CR>", { desc = "History" })
-
--- tes
